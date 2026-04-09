@@ -1,0 +1,5 @@
+# Normalizar finais de linha
+* text=auto
+
+# Arquivos Python sempre tratados como texto
+*.py text

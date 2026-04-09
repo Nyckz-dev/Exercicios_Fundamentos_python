@@ -1,9 +1,8 @@
 from Aluno import aluno
 from Calculation import calculation
 import NotaInvalidaError
+
 class Program:
-
-
     def ler_notas(self, msg):
         while True:
             try:
@@ -15,7 +14,6 @@ class Program:
                 print("Entrada inválida. Por favor, digite um número.")
             except NotaInvalidaError as e:
                 print(e)
-
 
     def main(self):
         nome = input(f"Digite o nome do aluno: ")
@@ -29,7 +27,6 @@ class Program:
         print("Aluno: ", p.nome)
         print(f"Média total: {calc.average():.2f}")
         print("Status: ", calc.status())
-
 
 if __name__ == "__main__":
             Program().main()

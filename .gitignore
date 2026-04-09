@@ -1,14 +1,6 @@
-# Ignorar ambientes virtuais
 venv/
-.venv/
-Lib/
-Scripts/
-pyvenv.cfg
-
-# Cache do Python
 __pycache__/
 *.pyc
-*.pyo
-
-# Configurações locais
-.vscode/
+build/
+dist/
+*.spec
