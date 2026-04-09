@@ -1,6 +1,7 @@
 from Aluno import aluno
 from Calculation import calculation
 import NotaInvalidaError
+import msvcrt
 
 class Program:
     def ler_notas(self, msg):
@@ -27,6 +28,9 @@ class Program:
         print("Aluno: ", p.nome)
         print(f"Média total: {calc.average():.2f}")
         print("Status: ", calc.status())
+
+    print("Pressione qualquer tecla para iniciar o programa...")
+    msvcrt.getch()  
 
 if __name__ == "__main__":
             Program().main()
