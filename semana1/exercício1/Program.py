@@ -29,8 +29,9 @@ class Program:
         print(f"Média total: {calc.average():.2f}")
         print("Status: ", calc.status())
 
-    print("Pressione qualquer tecla para iniciar o programa...")
-    msvcrt.getch()  
+    
 
 if __name__ == "__main__":
-            Program().main()
+            Program().main()           
+            print("Pressione qualquer tecla para sair...")
+            msvcrt.getch()  
