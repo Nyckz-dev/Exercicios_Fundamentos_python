@@ -1,17 +1,9 @@
 import unittest
-
-def calculation(self, start, max, limit):
-  result = []
-  for n in range(start, limit + 1):
-    print(f"\nMultiplication Table {n}")
-    for i in range(1, max + 1):
-     result.append(f"{n} x {i} = {n * i}")
-  return result
-
+from MultiplicationTable import MultiplicationTable
 class Test(unittest.TestCase):
     
     def test_interval(self):
-     result = calculation(2, 3, 3)
+     result = MultiplicationTable().calculation(2, 3, 3)
      expected = [
         "2 x 1 = 2",
         "2 x 2 = 4",
@@ -23,7 +15,7 @@ class Test(unittest.TestCase):
      self.assertEqual(result, expected)
 
     def test_unique(self):
-     result = calculation(5,2,5)
+     result = MultiplicationTable().calculation(5,2,5)
      expected = [
           "5 x 1 = 5",
           "5 x 2 = 10"
