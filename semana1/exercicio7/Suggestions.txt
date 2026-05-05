@@ -1,0 +1,32 @@
+Conceitos que você pode aplicar no exercício 7
+
+Estruturas de repetição e controle de fluxo
+ Já está usando while True e break.
+ Pode treinar também for com listas (armazenar os números e depois percorrer).
+
+Tratamento de erros (try/except)
+ Garantir que o usuário digite apenas números válidos.
+ Exemplo: se digitar texto, mostrar mensagem sem quebrar o programa.
+s
+Listas e coleções
+ Em vez de só somar, guardar todos os números em uma lista.
+ Depois calcular soma, média, máximo e mínimo.
+ Isso já conecta com os exercícios da Semana 2.
+
+Funções
+ Criar uma função soma_numeros() que faz a lógica.
+
+ Ou funções auxiliares: calcular_media(lista), calcular_maximo(lista).
+
+ Isso prepara para modularização (Semana 3).
+
+Strings e formatação
+
+ Mostrar resultados formatados, como:
+ "Você digitou 5 números. Soma = 23, Média = 4.6"
+
+Boas práticas
+
+ Separar lógica em funções e deixar o if __name__ == "__main__": só para rodar.
+
+ Isso já é um passo para projetos maiores.
