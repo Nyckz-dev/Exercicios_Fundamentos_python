@@ -1,3 +1,4 @@
+import math
 class Calculator:
     values = []
     def __init__(self):
@@ -13,7 +14,10 @@ class Calculator:
         return sum(self.values) 
 
     def average(self):
-       return sum(self.values) / len(self.values) if self.values else 0 
+       return sum(self.values) / len(self.values) if self.values else 0
+    
+    def multiplication(self):
+       return math.prod(self.values)
       
      
         
